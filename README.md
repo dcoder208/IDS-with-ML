@@ -1,20 +1,22 @@
-**IDS WITH ML**
+🛡️ IDS WITH ML (Intrusion Detection System
 
 A real-time Machine Learning based Intrusion Detection System that captures live network packets, 
 classifies traffic as Normal or Suspicious, stores logs, and displays results in a SOC-style dashboard.
 
-**Features**
+🔥 Key Highlights
+- ⚡ Real-time packet capture using **Scapy**
+- 🤖 Machine Learning detection using **Random Forest**
+- 📊 Live SOC dashboard using **Flask**
+- 🧠 Dynamic threat scoring system
+- 🚨 Real-time alert system
+- 🌐 Top attacking IP identification
+- 🎨 Modern blue-purple cyber security UI
 
-- Real-time packet capture using Scapy
-- ML-based traffic classification using Random Forest
-- Flask-based live dashboard
-- SQLite database logging
-- Threat score calculation
-- Suspicious IP tracking
-- Alert system
-- Blue-purple SOC-style UI
+📸 Dashboard Preview
 
-** Tech Stack**
+> <img width="1882" height="887" alt="Screenshot 2026-05-04 175318" src="https://github.com/user-attachments/assets/867fa468-9ebf-44e0-8a44-bd64ed38dcc5" />
+
+🛠️ Tech Stack
 
 - Python
 - Flask
@@ -25,45 +27,43 @@ classifies traffic as Normal or Suspicious, stores logs, and displays results in
 - HTML, CSS, JavaScript
 - Chart.js
 
-**Project Structure**
+📂 Project Structure
+<img width="202" height="452" alt="Screenshot 2026-05-04 175905" src="https://github.com/user-attachments/assets/d8cb0edc-7304-4c7a-becc-16bd071131d3" />
 
-
-IDS WITH ML/
-├── app.py
-├── capture.py
-├── database.py
-├── train_model.py
-├── templates/
-│   └── index.html
-├── model/
-│   └── ids_model.pkl
-└── README.md
-
-
-**How to Run**
-
-Install dependencies--
+⚙️ How to Run
+1️⃣ Install dependencies
 pip install flask scapy scikit-learn pandas joblib
 
-Create database--
+2️⃣ Create database
 python database.py
 
-Train ML model--
+3️⃣ Train ML model
 python train_model.py
 
-Start packet capture--
+4️⃣ Start packet capture
 python capture.py
 
-Start dashboard--
+5️⃣ Start dashboard
 python app.py
 
-Open in browser--
+🌐 Open in browser
 http://127.0.0.1:5000
 
-**Project Description**
+🧠 How it Works
+-Captures live packets using Scapy <img width="1870" height="881" alt="Screenshot 2026-05-04 175448" src="https://github.com/user-attachments/assets/66ab5a35-0486-4396-a286-7262d9e9b8ae" />
+-Extracts features (packet length, protocol)
+-Classifies traffic using ML model <img width="1868" height="878" alt="Screenshot 2026-05-04 175420" src="https://github.com/user-attachments/assets/0b4b2215-518e-4e18-a14b-7664adfa7dd0" />
+-Stores logs in SQLite
+-Displays results in real-time dashboard
 
-This project captures live packets using Scapy, extracts features such as packet length and protocol type, 
-classifies traffic using a Random Forest model, stores logs in SQLite, and displays results in a real-time Flask dashboard.
+🎯 Use Case
+This project simulates a Security Operations Center (SOC) environment and helps in detecting suspicious network activities in real time.
 
-**Author**
+👨‍💻 Author 
 Dinesh Kumar
+
+
+
+
+
+
